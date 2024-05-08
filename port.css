@@ -1,0 +1,14 @@
+*
+{
+    font-size: 19px;
+    
+margin: 0%;
+padding: 0%;
+}
+.container-fluid{
+background-color: plum;
+margin-top: 0px;
+border: 2px solid black;
+padding: 13px;
+}
+carousel-inner

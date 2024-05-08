@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> Ishika Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
